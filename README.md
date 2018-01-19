@@ -3,6 +3,7 @@ Convert mail/mime to zip file
 # Installation
 Copy mime2zip to a folder in your PATH
 # Help
+In GMail, select 'Show original' from the menu, then click 'Download original' for the input file.
 ```
 usage: mime2zip [-h] [--toc] [--hdr] [infile] [outfile]
 

@@ -54,6 +54,7 @@ def main(args):
 args = argparse.ArgumentParser(description='Convert mail/mime to zip')
 args.add_argument('infile', nargs='?', help="Mail file (default stdin)", type=argparse.FileType('r'), default=sys.stdin)
 args.add_argument('outfile', nargs='?', help="Zip file (default stdout)", type=argparse.FileType('w'), default=sys.stdout)
-args.add_argument('--toc', action='store_true', help="Write the TOC file")
-args.add_argument('--hdr', action='store_true', help="Write the HEADER file")
+args.add_argument('--toc', action='store_true', help="Write a table of contents to the zip file")
+args.add_argument('--hdr', action='store_true', help="Write a list of the mail headers to the zip file")
+
 main(args.parse_args())

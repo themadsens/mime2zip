@@ -15,6 +15,6 @@ positional arguments:
 
 optional arguments:
   -h, --help  show this help message and exit
-  --toc       Write the TOC file
-  --hdr       Write the HEADER file
+  --toc       Write a table of contents to the zip file
+  --hdr       Write a list of the mail headers to the zip file
 ```
